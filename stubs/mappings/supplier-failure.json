@@ -1,0 +1,12 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/v1/supplier"
+  },
+  "response": {
+    "status": 500,
+    "body": "{ \"message\": \"Error processing order\" }",
+    "fixedDelayMilliseconds": 1000
+  },
+  "priority": 10
+}

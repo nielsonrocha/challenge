@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/v1/suppliers/order",
+    "bodyPatterns": [
+      { "matchesJsonPath": "$.resaleId" },
+      { "matchesJsonPath": "$.items[*].product" },
+      { "matchesJsonPath": "$.items[*].quantity" }
+    ]
+  },
+  "response": {
+    "status": 201,
+    "fixedDelayMilliseconds": 2000,
+    "bodyFileName": "supplier-response.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

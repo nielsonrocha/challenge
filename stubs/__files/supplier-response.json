@@ -1,0 +1,5 @@
+{
+  "orderId": "{{randomValue length=16 type='ALPHANUMERIC'}}",
+  "status": "PROCESSED",
+  "message": "Order received and processed successfully!"
+}
